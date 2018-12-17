@@ -1,0 +1,1 @@
+[07-May-2018 11:27:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/kwstudio/public_html/wp-content/themes/studio/404.php on line 8
