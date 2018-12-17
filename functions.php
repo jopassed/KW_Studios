@@ -198,7 +198,7 @@ add_action( 'admin_print_scripts-appearance_page_custom-header', 'studio_admin_f
  * Enqueue scripts and styles.
  */
 function studio_scripts() {
-	wp_enqueue_style( 'studio-style', get_stylesheet_uri(), array(), '1.0.0' );
+	wp_enqueue_style( 'studio-style', get_stylesheet_uri(), array(), '1.0.1' );
 
 	wp_enqueue_style( 'studio-fonts', studio_fonts_url(), array(), '1.0.0' );
 

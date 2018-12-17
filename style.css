@@ -4,7 +4,7 @@ Theme URI:
 Author: jo-passed
 Author URI: 
 Description: Edited from Studio theme
-Version: 1
+Version: 1.1
 License:
 License URI: 
 Text Domain: kw-studio
@@ -1019,7 +1019,7 @@ a:active {
 -------------------------------------------------------------- */
 
 .main-navigation {
-    background-color: rgba(54, 45, 57, 0.8);
+    background-color: transparent;
     clear: both;
     padding: 15px;
     position: fixed;
