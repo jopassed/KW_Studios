@@ -45,10 +45,6 @@ do_action( 'studio_after_content' );
 do_action( 'studio_after' );
 
 wp_footer(); ?>
-<script>
 
-
-
- </script>
 </body>
 </html>

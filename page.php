@@ -19,49 +19,39 @@ get_header(); ?>
 
  <header id="masthead">
 
-<!-- Slideshow container -->
-<div class="slideshow-container">
+<div class="header-slider-container">
+	<div class="header-slick-slider">
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/KWProduction.jpg') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
-			-o-background-size: cover;
-			background-size: cover;
-            height:90vh;">'</div>
-    <div class="text">Caption Text</div>
-  </div>
+	  <!-- Full-width images with number and caption text -->
+	  <div class="head-slider-wrap">
+	   	    <div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/KWProduction.jpg') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
+					-o-background-size: cover;
+					background-size: cover;
+		            height:90vh;">'</div>
+	    <div class="text">KW PRODUCTION STUDIO <span>Book Now</span></div>
+	  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/KWAtrium.jpg') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
-			-o-background-size: cover;
-			background-size: cover;
-            height:90vh;">'</div>
-    <div class="text">Caption Two</div>
-  </div>
+	  <div class="head-slider-wrap">
+		    <div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/KWAtrium.jpg') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
+					-o-background-size: cover;
+					background-size: cover;
+		            height:90vh;">'</div>
+	    <div class="text">KW Atrium STUDIO <span>Book Now</span></div>
+	  </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-   <div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/kw-recording-for-web.png') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
-			-o-background-size: cover;
-			background-size: cover;
-            height:90vh;">'</div>
-    <div class="text">Caption Three</div>
-  </div>
+	  <div class="head-slider-wrap">
+	  	   	<div class="site-header" role="banner" style="background: url('<?php echo get_stylesheet_directory_uri(); ?>/images/kw-recording-for-web.png') no-repeat 50% 50%;	-webkit-background-size: cover; -moz-background-size:cover;
+					-o-background-size: cover;
+					background-size: cover;
+		            height:90vh;">'</div>
+	    <div class="text">KW Recording STUDIO <span>Book Now</span></div>
+	  </div>
 
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+	</div>
 </div>
-<br>
 
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+
 
 <div class="site-branding">
      <a href="#primary"><span class="typcn typcn-arrow-sorted-down move-on-down"></span></a>

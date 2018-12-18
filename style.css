@@ -2101,3 +2101,8 @@ figure {
 		page-break-after: avoid;
 	}
 }
+
+.header-slider-container {
+    position:relative;
+    
+}
